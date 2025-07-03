@@ -58,7 +58,9 @@ playwright install
 Ensure the appsettings.json file is located at RestApiTests/Config/appsettings.json with the correct base URL:
 
 {
+
   "BaseUrl": "https://jsonplaceholder.typicode.com/"
+  
 }
 
 ## Confirm Build
@@ -89,30 +91,30 @@ Includes endpoint tests for:
 
 ## Test types:
 
-GET by ID
-POST with valid payloads
-PUT and PATCH on /posts
-DELETE on /posts
-Nested GETs like /posts/1/comments
-Query-based filtering like /comments?postId=1
-DTO deserialization verification
-Negative tests for 404 responses
+- GET by ID
+- POST with valid payloads
+- PUT and PATCH on /posts
+- DELETE on /posts
+- Nested GETs like /posts/1/comments
+- Query-based filtering like /comments?postId=1
+- DTO deserialization verification
+- Negative tests for 404 responses
 
 ## UI Tests (PlaywrightTests)
 ### Covers:
 
-Navigating to Google
-Performing a search
-Navigating to the Prometheus Group site
-Filling and submitting a contact form
-Verifying error messages for missing required fields
+- Navigating to Google
+- Performing a search
+- Navigating to the Prometheus Group site
+- Filling and submitting a contact form
+- Verifying error messages for missing required fields
 
 ## Technologies Used
-.NET 8.0
-RestSharp
-xUnit
-FluentAssertions
-Playwright for .NET
+- .NET 8.0
+- RestSharp
+- xUnit
+- FluentAssertions
+- Playwright for .NET
 
 ## Additional Notes
 Google may trigger CAPTCHA or bot protection depending on traffic and IP location.
