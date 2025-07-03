@@ -51,6 +51,7 @@ dotnet restore
 ### Install Playwright browser dependencies:
 
 cd PlaywrightTests
+
 playwright install
 
 ### Step 3: Verify Configuration
@@ -72,6 +73,7 @@ dotnet test
 ### To run an individual suite:
 
 dotnet test RestApiTests
+
 dotnet test PlaywrightTests
 
 ## Test Coverage Overview
