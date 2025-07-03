@@ -37,6 +37,7 @@ This test suite uses Playwright to automate a user scenario in the browser:
 ### Step 1: Clone the Repository
 
 git clone https://github.com/jakesisson/Prometheus-TestProject.git
+
 cd Prometheus-TestProject
 
 ### Step 2: Install Dependencies
